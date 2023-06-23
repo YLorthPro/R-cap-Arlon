@@ -1,16 +1,9 @@
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Scanner;
 
 public class Conditionnel {
     public static void main(String[] args) {
 
-        Voiture v = new Voiture();
+        Voiture laVoitureDeSamuel = new Voiture("grise","Peugeot");
 
-        Voiture laVoitureDeSamuel = new Voiture();
-
-        laVoitureDeSamuel.couleur="grise";
-        laVoitureDeSamuel.marque="Peugeot";
         laVoitureDeSamuel.nbPortes=5;
         laVoitureDeSamuel.isManuelle=true;
 
